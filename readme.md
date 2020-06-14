@@ -1,5 +1,5 @@
-![Logo](public/img/logo.png)
-####DEIN DUFT • DEIN AUTO • DEIN FLAVOUR
+![Logo](public/img/logo-480.png)
+##### DEIN DUFT • DEIN AUTO • DEIN FLAVOUR
 
 
 ## Was?
