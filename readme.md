@@ -17,4 +17,5 @@ carFLAVOUR verleiht angenehme Düfte in deinem Auto, genau nach deinem Geschmack
 - [x] build page
 - [ ] add functionality to the subscription form
 - [ ] create social media accounts
+- [ ] SEO optimization
 - [ ] add analytics??
