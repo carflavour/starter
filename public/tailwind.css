@@ -1,0 +1,39 @@
+@tailwind base;
+
+@font-face {
+    font-family: "Sakkal Majalla";
+    font-weight: 500;
+    src: url(fonts/majalla.ttf) format("truetype");
+}
+
+@tailwind components;
+
+/* ============================================================
+ZITAT
+============================================================ */
+blockquote {
+    position: relative;
+    marign: 0;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 30px;
+}
+blockquote:before, blockquote:after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 100px;
+    line-height: 1;
+}
+blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    top: 0;
+    right: 0;
+    content: "\201D";
+}
+
+@tailwind utilities;
