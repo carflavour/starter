@@ -16,7 +16,8 @@
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
     "dev": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
     "copy:font": "cp public/fonts/majalla.ttf public/build/majalla.ttf",
-    "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css && npm run copy:font",
+    "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
+    "carflavour": "npm run copy:font && npm run production",
     "start": "npm run serve"
   },
   "dependencies": {
