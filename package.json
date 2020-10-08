@@ -15,7 +15,8 @@
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/tailwind.css -o public/build/tailwind.css --watch\"  \"live-server ./public\"",
     "development": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
     "dev": "cross-env NODE_ENV=development postcss public/tailwind.css -o public/build/tailwind.css",
-    "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
+    "copy:font": "cp public/fonts/majalla.ttf public/build/majalla.ttf",
+    "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css && npm run copy:font",
     "start": "npm run serve"
   },
   "dependencies": {
